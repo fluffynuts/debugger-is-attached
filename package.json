@@ -1,6 +1,6 @@
 {
   "name": "debugger-is-attached",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "lets you know if a debugger is _actually_ attached, even within test code",
   "main": "dist/index.js",
   "scripts": {

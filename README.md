@@ -1,5 +1,8 @@
 debugger-is-attached
 ---
+![Build and Test](https://github.com/fluffynuts/debugger-is-attached/workflows/Tests/badge.svg)
+
+![npm](https://img.shields.io/npm/v/debugger-is-attached)
 
 ## What?
 

@@ -20,6 +20,10 @@
     "name": "Davyd McColl",
     "email": "davydm@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluffynuts/debugger-is-attached.git"
+  },
   "license": "BSD-3-Clause",
   "files": [
     "dist/**/*"

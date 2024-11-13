@@ -17,4 +17,14 @@ describe(`debugger-is-attached`, () => {
         expect(result)
             .toBeFalse();
     });
+
+    // run manually
+    it.skip(`should return true when run with a debugger attached`, async () => {
+        // Arrange
+        // Act
+        const result = await debuggerIsAttached();
+        // Assert
+        expect(result)
+          .toBeTrue();
+    });
 });

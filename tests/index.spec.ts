@@ -12,7 +12,7 @@ describe(`debugger-is-attached`, () => {
     it(`should return false when run normally`, async () => {
         // Arrange
         // Act
-        const result = await debuggerIsAttached();
+        const result = debuggerIsAttached();
         // Assert
         expect(result)
             .toBeFalse();
@@ -22,7 +22,7 @@ describe(`debugger-is-attached`, () => {
     it.skip(`should return true when run with a debugger attached`, async () => {
         // Arrange
         // Act
-        const result = await debuggerIsAttached();
+        const result = debuggerIsAttached();
         // Assert
         expect(result)
           .toBeTrue();
